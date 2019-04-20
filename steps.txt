@@ -1,0 +1,64 @@
+70a71,133
+>    71  ls -ltr
+>    72  ls ~/Downloads/chef-manage_2.5.16-1_amd64.deb 
+>    73  sudo apt-get install /home/dinesh/Downloads/chef-manage_2.5.16-1_amd64.deb
+>    74  mail
+>    75  sudo apt install mailutils
+>    76  rm /var/lib/dpkg/info/postfix.*
+>    77  sudo rm -rf  /var/lib/dpkg/info/postfix.*
+>    78  sudo apt-get purge postfix
+>    79  sudo rm -rf  /var/lib/dpkg/info/mailutils*
+>    80  sudo apt-get purge mailutils
+>    81  sudo apt-get install /home/dinesh/Downloads/chef-manage_2.5.16-1_amd64.deb
+>    82  sudo apt autoremove
+>    83  dpkg -i /home/dinesh/Downloads/chef-manage_2.5.16-1_amd64.deb 
+>    84  sudo dpkg -i /home/dinesh/Downloads/chef-manage_2.5.16-1_amd64.deb 
+>    85  chef-manage-ctl reconfigure
+>    86  sudo chef-manage-ctl reconfigure
+>    87  systemctl --type=service
+>    88  systemctl --type=service | grep chef
+>    89  mail
+>    90  sudo apt-get install mailutils
+>    91  sudo rm -rf  /var/lib/dpkg/info/postfix.*
+>    92  sudo apt-get purge postfix
+>    93  sudo rm -rf  /var/lib/dpkg/info/mailutils*
+>    94  sudo apt-get purge mailutils
+>    95  sudo apt-get install mailutils
+>    96  sudo rm -rf  /var/lib/dpkg/info/postfix.*
+>    97  sudo apt-get purge postfix
+>    98  sudo rm -rf  /var/lib/dpkg/info/mailutils*
+>    99  sudo apt-get purge mailutils
+>   100  sudo apt-get install mailutils  default-mta  mail-transport-agent
+>   101  sudo apt-get update
+>   102  sudo apt-get install postfix
+>   103  vi /etc/hosts
+>   104  hostname
+>   105  mail
+>   106  sudo apt install mailutils
+>   107  mail
+>   108  sudo apt install postfix mailutils
+>   109  sudo apt install postfix mailutils mail-transport-agent
+>   110  hostname
+>   111  hostname dinesh.com
+>   112  sudo hostname dinesh.com
+>   113  hostname
+>   114  sudo get update
+>   115  sudo apt-get update
+>   116  sudo apt install mailutils
+>   117  vi  /etc/postfix/main.cf
+>   118  sudo vi  /etc/postfix/main.cf
+>   119  sudo apt install mailutils
+>   120  systemctl --type=service
+>   121  sudo systemctl reload postfix.service
+>   122  mail
+>   123  hostname
+>   124  mail
+>   125  mail -h
+>   126  mail --usage
+>   127  mail --subject test dineshpsingh@yahoo.com
+>   128  echo "This is the body of the email" | mail -s "This is the subject line" dinesh@dinesh.com
+>   129  mail
+>   130  echo "This is the body of the email" | mail -s "This is the subject line" dineshpsingh@yahoo.com
+>   131  mail
+>   132  ls -ltr
+>   133  history > old4.txt

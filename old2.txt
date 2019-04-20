@@ -1,0 +1,19 @@
+    1  ./autorun.sh 
+    2  sudo cp devops/backup/presetup.txt .
+    3  sudo chown dinesh:dinesh presetup.txt 
+    4  vi presetup.txt 
+    5  ./presetup.txt 
+    6  kubeadm -version
+    7  sudo systemctl start jenkins
+    8  sudo systemctl status jenkins
+    9  docker
+   10  docker images
+   11  sudo reboot
+   12  pwd
+   13  cd lesson5
+   14  ls -l
+   15  ansible-playbook mysql.yaml 
+   16  ansible -m shell -a "service mysql status" webservers
+   17  pwd
+   18  ls -l
+   19  history > old2.txt 

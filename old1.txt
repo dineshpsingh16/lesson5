@@ -1,0 +1,45 @@
+    1  ./autorun.sh 
+    2  sudo cp devops/backup/presetup.txt .
+    3  sudo chown dinesh:dinesh presetup.txt 
+    4  vi presetup.txt 
+    5  ./presetup.txt 
+    6  kubeadm -version
+    7  sudo systemctl start jenkins
+    8  sudo systemctl status jenkins
+    9  docker
+   10  docker images
+   11  sudo reboot
+   12  node -v
+   13  nmp -v
+   14  npm -v
+   15  pwd
+   16  cd lesson4
+   17  cd cumumber/
+   18  mkdir hellocucumber
+   19  cd hellocucumber/
+   20  npm init --yes
+   21  ls -l
+   22  npm install --save-dev
+   23  ls -l
+   24  mkdir features
+   25  cd features/
+   26  mkdir steps
+   27  cd steps/
+   28  vi cucumber.js
+   29  ls -l
+   30  mv cucumber.js  ../
+   31  pwd
+   32  vi stepdef.js
+   33  cd 
+   34  cd lesson4/
+   35  git init
+   36  git add .
+   37  git commit -m "first commit"
+   38  git remote add origin https://github.com/dineshpsingh16/lesson4.git
+   39  git push -u origin master
+   40  cd ..
+   41  pwd
+   42  mkdir lession5
+   43  mv lession5/ lesson5
+   44  cd lesson5/
+   45  history > old1.txt
